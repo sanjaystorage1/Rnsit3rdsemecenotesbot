@@ -15,8 +15,8 @@ bot = Client(
 @bot.on_message(filters.command('start') )  
 def command1(bot, message):       
 	    
-	bot.send_message(message.chat.id, "I Can search through rnsit notes uploadedmodule1 by @sanjaybyranna"),  
-	bot.send_message(message.chat.id, "Follow this method :\nFor Ex: to search edmodule1 3rdsem module_1 U have to serch it as \n/edmodule1"),
+	bot.send_message(message.chat.id, "I Can search through rnsit notes uploaded by @sanjaybyranna"),  
+	bot.send_message(message.chat.id, "Follow this method :\nFor Ex: To search edmodule1 U have to serch it as \n/edmodule1"),
 	bot.send_message(message.chat.id, "List of subjects the bot can give the notes are\n/mathsnotes\n/ntnotes\n/ednotes\n/dsdnotes\n/conotes\n/penotes\n/cpcnotes")
 	
 #list of subjects--------------------------------------------------------------------------------------------------------------------------------------------
